@@ -13,6 +13,8 @@ Envantera is a modern, PHP-based inventory and sales tracking system designed fo
 - **RESTful API:** API endpoints for products, customers, and analytics data.
 - **Modern PHP Architecture:** Built with MVC pattern and OOP principles.
 
+- ![Adsız tasarım](https://github.com/user-attachments/assets/4a9d9915-f469-4d0f-8e9b-e335d8841574)
+
 ## 🔑 Access
 
 **Default Admin Credentials:**
