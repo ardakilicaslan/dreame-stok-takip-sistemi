@@ -56,6 +56,10 @@ The system provides RESTful API endpoints:
 - API endpoints
 - Modern PHP architecture
 
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
 ## 👨‍💻 Developer
 
 **Arda Kılıçaslan** - [GitHub](https://github.com/ardakilicaslan)
