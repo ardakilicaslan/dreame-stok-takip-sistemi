@@ -13,39 +13,11 @@ Envantera is a modern, PHP-based inventory and sales tracking system designed fo
 - **RESTful API:** API endpoints for products, customers, and analytics data.
 - **Modern PHP Architecture:** Built with MVC pattern and OOP principles.
 
-## 🛠️ Installation
+## 🔑 Access
 
-Follow these steps to run the project on your local machine.
-
-#### Requirements
-- [XAMPP](https://www.apachefriends.org/tr/index.html) or similar local server (Apache, MySQL, PHP)
-- PHP 7.4 or higher
-- MySQL 5.7 or higher
-
-#### Steps
-
-1. **Download the Project:** Download this repo as ZIP or clone it. Place the files in your XAMPP installation's `htdocs` folder as `Envantera`.
-
-2. **Create Database:**
-   - Open `phpMyAdmin`
-   - Create a new database named `envantera`
-   - Import the `stoksayim.sql` file
-
-3. **Configure Database Connection:**
-   - Open `config/Config.php`
-   - Update your database information:
-     ```php
-     'DB_HOST' => 'localhost',
-     'DB_NAME' => 'envantera',
-     'DB_USER' => 'root',
-     'DB_PASS' => 'your_password'
-     ```
-
-4. **Run the Application:**
-   - Navigate to `http://localhost/Envantera` in your browser
-   - Default admin credentials:
-     - **Username:** `admin`
-     - **Password:** `admin`
+**Default Admin Credentials:**
+- **Username:** `admin`
+- **Password:** `admin`
 
 ## 🗄️ Database Structure
 
@@ -67,45 +39,6 @@ The system provides RESTful API endpoints:
 - `GET /api/endpoints/models` - Model list
 - `GET /api/endpoints/analytics` - Analytics data
 
-## 🚀 Deployment
-
-### Production Environment
-1. Set `APP_ENV` to `production` in `config/Config.php`
-2. Set `APP_DEBUG` to `false`
-3. Review security settings
-4. Optimize web server configuration
-
-## 🛡️ Security Features
-
-- CSRF token protection
-- Rate limiting (for login attempts)
-- Input validation and sanitization
-- SQL injection protection
-- XSS protection
-- Session security
-
-## 📊 Performance
-
-- Database query optimization
-- Caching support
-- Image optimization
-- Lazy loading
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Database connection error:**
-   - Ensure MySQL service is running
-   - Check database credentials
-
-2. **File upload error:**
-   - Check write permissions for `img/uploads` folder
-   - Check PHP upload limits
-
-3. **Session error:**
-   - Run `clear_session.php` file
-
 ## 🤝 Contributing
 
 1. Fork the project
@@ -123,16 +56,6 @@ The system provides RESTful API endpoints:
 - API endpoints
 - Modern PHP architecture
 
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## 👨‍💻 Developer
 
 **Arda Kılıçaslan** - [GitHub](https://github.com/ardakilicaslan)
-
-## 📞 Support
-
-If you encounter any issues:
-- [Create an issue](https://github.com/ardakilicaslan/envantera/issues)
-- [Check the wiki](https://github.com/ardakilicaslan/envantera/wiki)
