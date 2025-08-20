@@ -1,0 +1,54 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Cache files
+cache/
+tmp/
+temp/
+
+# Upload files (keep structure, ignore content)
+img/uploads/*
+!img/uploads/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.sql.backup
+
+# Node modules (if any)
+node_modules/
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Database dumps
+*.sql
+!database_improvements.sql
+!install.sql
+
+# Session files
+sessions/
+
+# Config overrides
+config_local.php

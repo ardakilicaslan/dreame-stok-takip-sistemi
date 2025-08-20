@@ -1,0 +1,45 @@
+.ri {
+
+    font-size: 1.25rem; 
+
+    vertical-align: middle;
+
+}
+
+h1 .ri, h2 .ri {
+
+    font-size: 1.5rem; 
+
+}
+
+button .ri, a .ri {
+
+    font-size: 1rem; 
+
+}
+
+label .ri {
+
+    font-size: 1.125rem; 
+
+}
+
+#productsModal, #editSaleModal {
+
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+#productsModal.hidden, #editSaleModal.hidden {
+
+    opacity: 0;
+
+    pointer-events: none;
+
+}
+
+#productsModal:not(.hidden), #editSaleModal:not(.hidden) {
+
+    opacity: 1;
+
+}
